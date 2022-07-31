@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,400;0,700;0,800;1,100;1,200;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <h1> Criar uma conta</h1>
+    </div>
+
+    <form id="form" class="form">
+        <div class="form-control">
+            <label for="username"> Nome de Usuário</label>
+            <input type="text" id="username" placeholder="Digite um nome de usuário..."/>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <small> Mensagem de Erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Digite um email..."/>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <small> Mensagem de Erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="password"> Senha</label>
+            <input type="password" id="password" placeholder="Digite uma senha..."/>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <small> Mensagem de Erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="password-confirmation"> Confirme sua senha</label>
+            <input type="password" id="password-confirmation" placeholder="Digite novamente sua senha..."/>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <small> Mensagem de Erro</small>
+        </div>
+        <button type="submit"> Enviar</button>
+    </form>
+    </div>
+
+
+    <script src="scripts.js"> </script>
+
+    <script src="https://kit.fontawesome.com/eadb316905.js" crossorigin="anonymous"></script>
+</body>
+</html>
